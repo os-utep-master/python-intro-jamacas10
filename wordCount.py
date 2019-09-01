@@ -52,6 +52,6 @@ def searchDictionary(dict, word):
 def writeFile(dict):
     fileW = open(outputFile, "w")
     for word, number in sorted(dict.items()):
-        fileW.write(word + " " + str(number)+ "\n")
+        fileW.write(word + " " + str(number) + "\n")
 
 readFile()
